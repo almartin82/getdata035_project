@@ -7,6 +7,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The data file contains records for 10299 observations from 30 distinct subjects.
 
+
+### subject
 Field label: subject
 
 Variable: Subject Number
@@ -18,6 +20,7 @@ Allowable values: 1-30
 Comments: Represents the unique subject who generated the data.
 
 
+### ActivityName
 Field label: ActivityName
 
 Variable: Activity Name
@@ -29,6 +32,7 @@ Allowable values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDI
 Comments: Represents the activity state reported by the subject when the data was obtained.
 
 
+### measurement
 Field label: measurement
 
 Variable: Measurement
@@ -40,6 +44,7 @@ Allowable values: see `features.txt` for the 561 possible measurements.
 Comments: This is a tidy dataset, where each variable is recorded in one row.  The 561 measurements represent different data points from the accelerometer and gyroscope.
 
 
+### mean_value
 Field label: mean_value
 
 Variable: Mean Value
